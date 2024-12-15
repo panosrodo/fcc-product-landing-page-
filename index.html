@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Landing Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500&family=Montserrat:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header id="header">
+      <nav id="nav-bar">
+        <div class="logo-container">
+          <img
+            src="https://manga-t.fr/wp-content/uploads/2024/03/logo-header.png"
+            alt="logo"
+            id="header-img"
+          />
+          <span class="the-product">Shonen Manga</span>
+        </div>
+        <ul class="nav-links">
+          <li><a href="#features" class="nav-link">Features</a></li>
+          <li><a href="#vid" class="nav-link">Video</a></li>
+          <li><a href="#for_sale" class="nav-link">For Sale</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="email-section">
+      <h2>The World of Shonen</h2>
+      <form action="https://www.freecodecamp.com/email-submit" id="form">
+        <input
+          id="email"
+          type="email"
+          required
+          placeholder="Enter your email address"
+          name="email"
+        />
+        <input type="submit" id="submit" value="GET STARTED" />
+      </form>
+    </section>
+
+    <section id="features">
+      <div class="feature">
+        <i class="ri-file-paper-fill ri-4x icon"></i>
+        <div>
+          <h2>Best Sellers</h2>
+          <p>
+            We have the Best selling Shonen Manga on our site with the best prices on the market.
+          </p>
+        </div>
+      </div>
+      <div class="feature">
+        <i class="ri-truck-fill ri-4x icon"></i>
+        <div>
+          <h2>1 Day Shipping</h2>
+          <p>
+            We make sure you receive your Manga as soon as possible so
+            that you can start reading immediately.
+          </p>
+        </div>
+      </div>
+      <div class="feature">
+        <i class="ri-book-open-line ri-4x icon"></i>
+        <div>
+          <h2>Quality Manga Scans Only</h2>
+          <p>
+            We make sure to only provide awesome manga. We guarantee that the manga you buy
+            is one of the top scans on the market.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section id="vid">
+      <iframe
+        id="video"
+        width="560"
+        height="315" 
+        src="https://www.youtube.com/embed/t6qvexU_Ka4?si=CRlywVPeAF2630zI"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+      ></iframe>
+    </section>
+
+    <section id="for_sale">
+      <h2>For Sale</h2>
+      <div class="product-cards">
+        <div class="card">
+          <div class="product-image product1"></div>
+          <div class="inner-card">
+            <div class="author">Chugong</div>
+
+            <h1 class="header">Solo Leveling</h1>
+
+            <p class="content">
+              In a world where hunters — human warriors who possess supernatural abilities — must battle deadly monsters to protect mankind from certain annihilation,
+              a notoriously weak hunter named Sung Jinwoo finds himself in a seemingly endless struggle for survival.
+            </p>
+
+            <div class="flex">
+              <p class="main-price">$17.99</p>
+              <p class="old-price">$21.99</p>
+            </div>
+
+            <button class="add">
+              <p style="margin-left: 5px">Add to Cart</p>
+            </button>
+          </div>
+        </div>
+        <!-- BOOK TWO -->
+        <div class="card">
+          <div class="product-image product2"></div>
+          <div class="inner-card">
+            <div class="author">Yuto Suzuki</div>
+
+            <h1 class="header">Sakamoto Days</h1>
+
+            <p class="content">
+              Time has passed peacefully for Sakamoto since he left the underworld. He's running a neighborhood store with his lovely wife and child and 
+              hasgottena bit… out of shape.
+              But one day a figure from his past pays him a visit with an offer he can't refuse: return to the assassin world or die!
+            </p>
+
+            <div class="flex">
+              <p class="main-price">$8.61</p>
+              <p class="old-price">$9.99</p>
+            </div>
+
+            <button class="add">
+              <p style="margin-left: 5px">Add to Cart</p>
+            </button>
+          </div>
+        </div>
+        <!-- BOOK THREE -->
+        <div class="card">
+          <div class="product-image product3"></div>
+          <div class="inner-card">
+            <div class="author">Tatsuki Fujimoto</div>
+
+            <h1 class="header">Cainsaw Man</h1>
+
+            <p class="content">
+              After being killed on a job, he is revived by his pet devil Pochita and becomes something new and dangerous—Chainsaw Man!
+              Denji's a poor young man who'll do anything for money, even hunting down devils with his pet devil Pochita. He's a simple man with simple dreams,
+              drowning under a mountain of debt.
+            </p>
+
+            <div class="flex">
+              <p class="main-price">$7.99</p>
+              <p class="old-price">$9.99</p>
+            </div>
+
+            <button class="add">
+              <p style="margin-left: 5px">Add to Cart</p>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
